@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Website cá nhân của tôi</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #fff0f5;
+            color: #444;
+            text-align: center;
+        }
+
+        header {
+            background: #f5a6c8;
+            color: white;
+            padding: 35px 15px;
+        }
+
+        header h1 {
+            font-size: 32px;
+        }
+
+        nav {
+            background: white;
+            padding: 15px;
+        }
+
+        nav a {
+            color: #d65b91;
+            text-decoration: none;
+            margin: 0 12px;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 35px auto;
+            padding: 25px;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 18px;
+            box-shadow: 0 4px 12px #e8b8ca;
+        }
+
+        button {
+            background: #ec8db5;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 25px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background: #d65b91;
+        }
+
+        footer {
+            padding: 20px;
+            background: #f5a6c8;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Xin chào! Đây là website của tôi</h1>
+        <p>Chào mừng bạn đến với trang web cá nhân</p>
+    </header>
+
+    <nav>
+        <a href="#home">Trang chủ</a>
+        <a href="#about">Giới thiệu</a>
+        <a href="#contact">Liên hệ</a>
+    </nav>
+
+    <div class="container" id="home">
+
+        <div class="card">
+            <h2>Chào mừng bạn!</h2>
+
+            <p>
+                Đây là website đầu tiên được tạo
+                bằng HTML và CSS.
+            </p>
+
+            <h2 id="about">Giới thiệu bản thân</h2>
+
+            <p>
+                Xin chào! Tôi đang học lập trình web.
+                Tôi muốn tự tạo ra những website đẹp
+                và hữu ích.
+            </p>
+
+            <h2 id="contact">Liên hệ</h2>
+
+            <p>Bạn có thể liên hệ với tôi qua email.</p>
+
+            <button onclick="alert('Cảm ơn bạn đã ghé thăm!')">
+                Nhấn vào đây
+            </button>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2026 - Website cá nhân của tôi</p>
+    </footer>
+
+</body>
+</html>
